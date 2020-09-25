@@ -24,6 +24,45 @@ li a:hover{
   text-decoration: underline !important;
 }
 /*==================================================== navbar========================= */
+.nav-item::after{
+  content:'';
+  display:block;
+  width:0px;
+  height:2px;
+  background:#fec400;
+  transition: 0.2s;
+}
+.nav-item:hover::after{
+  width:100%;
+}
+
+.nav-link{
+  padding:15px 5px;
+  transition:0.2s;
+}
+.dropdown-item.active,
+ .dropdown-item:active{
+  color:#ffffff;
+}
+.dropdown-item:focus, 
+.dropdown-item:hover{
+  background:#fec400;
+}
+.navbar-nav{
+color: #fff !important;
+
+}
+
+/*  */
+.sticky-top{
+  padding: 10px 0px 10px 0;
+  letter-spacing:1px;
+  font-weight:800;
+  text-transform: uppercase;
+  font-style: italic;
+  color: #fff !important;
+
+}
 
 /* ===============================Header ========================= */
 
@@ -167,7 +206,6 @@ header .overlay {
   text-align: center;
 
 }
-
 
 /* =========================Testomoial ============================== */
 .heading {
@@ -721,11 +759,31 @@ text-align:justify;
 
 
 /*************************************************************************** team member  ***************************************************/
-
+#contact li{
+  font-size: 22px;
+  padding: 4px;
+  margin-top: 5px;
+}
+#contact li i{
+ font-size: larger;
+ font-weight: 200;
+} 
+#contact li p{
+  margin-left: 35px;
+}
+#contact ul a{
+ text-decoration: none;
+ color: black;
+}
+#contact ul a:hover{
+  color: green;
+ }
+ 
 
 .profile-card-4 {
+  content: "";
   margin: 1rem;
-  max-width: 300px;
+  max-width: 19rem;
   background-color: #FFF;
   border-radius: 5px;
   box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
