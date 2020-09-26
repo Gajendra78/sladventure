@@ -2,18 +2,27 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: 'Noto Serif', serif;
+  list-style-type: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  outline: none;
 }
+
 
 body {
   background:url(../img/bg.jpg);
 }
 
 h1{
-  font-weight: 1000;
+  font-weight: 700;
   color: green;
   margin-top: 7rem;
   margin-bottom: 5rem;
   text-align: center;
+}
+.heading{
+  margin-top: 3rem;
 }
 li a{
   color: white;
@@ -29,7 +38,7 @@ li a:hover{
   display:block;
   width:0px;
   height:2px;
-  background:#fec400;
+  background:#9df9ef;
   transition: 0.2s;
 }
 .nav-item:hover::after{
@@ -46,7 +55,7 @@ li a:hover{
 }
 .dropdown-item:focus, 
 .dropdown-item:hover{
-  background:#fec400;
+  background:#9df9ef;
 }
 .navbar-nav{
 color: #fff !important;
@@ -63,7 +72,9 @@ color: #fff !important;
   color: #fff !important;
 
 }
-
+.nav-link{
+  font-size: large;
+}
 /* ===============================Header ========================= */
 
 header {
@@ -172,10 +183,10 @@ header .overlay {
 
 /* ===========================2nd section=================================== */
 
-.service h1{
+#service h1{
   font-weight: 700;
   font-size: 3rem;
-  margin: 7rem 3rem 4rem 3rem;
+  padding-top: 3rem;
 } 
 
 .card:hover{
@@ -205,6 +216,12 @@ header .overlay {
 .card-footer{
   text-align: center;
 
+}
+.FAicons{
+margin: auto;
+margin-top: 1.5rem;
+color:green;
+height: 5rem;
 }
 
 /* =========================Testomoial ============================== */
@@ -627,11 +644,9 @@ padding-bottom:50px;
     margin-bottom: 10px;
 }
 }
-
-
-
-
-
+#footer{
+  padding-bottom: 1rem;
+}
 /************************************************************************ About us page ***************************/
 
 
@@ -749,6 +764,7 @@ text-align:justify;
   width: 10rem;
   border-radius: 5rem;
   text-align: center;
+  margin-bottom: 2rem;
 }
 #services button:hover{
   color:white;
@@ -759,6 +775,11 @@ text-align:justify;
 
 
 /*************************************************************************** team member  ***************************************************/
+.card-deck{
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+}
 #contact li{
   font-size: 22px;
   padding: 4px;
@@ -773,7 +794,7 @@ text-align:justify;
 }
 #contact ul a{
  text-decoration: none;
- color: black;
+ color: rgb(0, 0, 0);
 }
 #contact ul a:hover{
   color: green;
@@ -810,7 +831,8 @@ text-align:justify;
     left: 0px;
     right: 0px;
     top: -70px;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-weight: 900;
     font-size: 1.3rem;
 }
 
@@ -875,4 +897,7 @@ text-align:justify;
   padding: 0.8rem;
   width: 10rem;
   border: none;
+}
+.enquiry{
+  margin: 1rem;
 }
