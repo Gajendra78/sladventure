@@ -16,20 +16,27 @@
 
 <body>
     <!-- Header -->
-    <nav class="navbar navbar-light bg-light justify-content-center">
-        <span class="navbar-brand mb-0 h1"><a class="navbar-brand" href="#">
-                <img src="img/sla Logo.png" alt="Logo">
-            </a></span>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-light bg-light-transprent container">
+        <a class="navbar-brand" href="#">
+            <img src="img/logo.png" width="90" height="60" class="d-inline-block align-center" alt="">
+            Sladvanture
+        </a>
+        <form class="form-inline">
+            <button class="btn btn-outline-success mr-2" type="button">Log In</button>
+            <button class="btn btn-outline-success ml-2" type="button">Sign Up</button>
+        </form>
     </nav>
     <!-- Navbar -->
-    <nav class="navbar sticky-top navbar-expand-md bg-success">
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark navbar-primary bg-success main-nav ">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+            aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse"></div>
-        <div class="collapse navbar-collapse " id="collapsibleNavbar">
-            <ul class="navbar-nav ">
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <ul class="navbar-nav mx-auto ">
                 <li class="nav-item mx-2">
                     <a class="nav-link " href="index.html">Home</a>
                 </li>
@@ -40,10 +47,10 @@
                     <a class="nav-link" href="tourPackages.html">Tour Packages</a>
                 </li>
                 <li class="nav-item mx-2">
-                    <a class="nav-link" href="#">Blogs</a>
+                    <a class="nav-link" href="blog.html">Blogs</a>
                 </li>
                 <li class="nav-item mx-2">
-                    <a class="nav-link" href="services.html">Services</a>
+                    <a class="nav-link" href="#">Services</a>
                 </li>
                 <li class="nav-item mx-2">
                     <a class="nav-link" href="contact.html">Contact Us</a>
@@ -57,18 +64,10 @@
             </ul>
         </div>
     </nav>
-
-
-    <section class="wrapper">
-        <div class="container-fostrap">
-            <div>
-                <h1 class="heading">
-                    Our Blogs
-                </h1>
-                <hr width="10%" color="green">
-            </div>
-    </section>
-
+    <!-- end navbar -->
+    <h1 class="heading">
+        Our Blogs
+    </h1>
     <section id="blogs">
         <div class="w3-content" style="max-width:1250px">
             <div class="w3-row">
@@ -272,5 +271,4 @@
         </div>
     </section>
 </body>
-
 </html>
