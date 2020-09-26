@@ -11,39 +11,36 @@
     integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
   <!-- font Awesome -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+    crossorigin="anonymous" />
   <!-- responsive -->
   <link rel="stylesheet" href="css/responsive.css">
   <!-- aos -->
-  
-
-  <title>Sladvanture</title>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- favicon.ico -->
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+  <title>SL Advanture</title>
 </head>
 
 <body>
-  <!-- header -->
 
   <!-- Navbar -->
   <nav class="navbar navbar-light bg-light-transprent container">
-    <a class="navbar-brand" href="#">
-      <img src="img/logo.png" width="90" height="60" class="d-inline-block align-center" alt="">
-      Sladvanture
+    <a class="navbar-brand" href="index.html">
+      <img src="img/logo.png" width="90" height="60" class="d-inline-block align-center" alt="" href="index.html">
+      <b>SLADVENTURE</b>
     </a>
-    <form class="form-inline">
+    <form class="form-inline ">
       <button class="btn btn-outline-success mr-2" type="button">Log In</button>
       <button class="btn btn-outline-success ml-2" type="button">Sign Up</button>
     </form>
   </nav>
-  <!-- Navbar -->
-  <!-- <nav class="navbar sticky-top navbar-expand-md bg-success">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse"></div>
-    <div class="collapse navbar-collapse " id="collapsibleNavbar">
-    
-  </nav> -->
+
   <nav class="navbar sticky-top navbar-expand-lg navbar-dark navbar-primary bg-success main-nav ">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+      aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
@@ -61,7 +58,7 @@
           <a class="nav-link" href="blog.html">Blogs</a>
         </li>
         <li class="nav-item mx-2">
-          <a class="nav-link" href="#">Services</a>
+          <a class="nav-link" href="services.html">Services</a>
         </li>
         <li class="nav-item mx-2">
           <a class="nav-link" href="contact.html">Contact Us</a>
@@ -75,7 +72,8 @@
       </ul>
     </div>
   </nav>
-<!-- lading page -->
+  <!-- end nav bar -->
+  <!-- lading page -->
   <header>
     <div class="overlay">
       <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
@@ -93,11 +91,11 @@
   <!-- end header -->
   <!-- ----------------------------Service card 2nd section -------------------------------------->
   <section id="service">
-    <div class="container">
+    <div class="container" data-aos=fade-down>
       <h1> OUR SERVICES</h1>
-      <div class="card-deck">
+      <div class="card-deck" data-aos=fade-up>
         <div class="card">
-          <img src="img/trekking-.png" class="card-img-top" alt="...">
+          <div class="FAicons fas fa-hiking fa-5x"></div>
           <div class="card-body">
             <h5 class="card-title">TREKKING AND TRAVEL</h5>
             <p class="card-text">HELPFUL, EXPERIENCED, PROFESSIONAL LOCAL GUIDE, TOUR AND TREK ORGANISING IN UTTARAKHAND
@@ -108,7 +106,7 @@
           </div>
         </div>
         <div class="card">
-          <img src="img/trekking-.png" class="card-img-top" alt="...">
+          <div class="FAicons fas fa-hotel fa-5x"></div>
           <div class="card-body">
             <h5 class="card-title">ACCOMMODATION</h5>
             <p class="card-text">PERSONAL ROOMS AND TENTS PER NIGHT AND ON QUAD SHARING) BREAKFAST, LUNCH AND DINNER
@@ -120,7 +118,7 @@
           </div>
         </div>
         <div class="card">
-          <img src="img/trekking-.png" class="card-img-top" alt="...">
+          <div class="FAicons fas fa-car fa-5x"></div>
           <div class="card-body">
             <h5 class="card-title"> TOUR AND TRAVELS</h5>
             <p class="card-text">CONTACT US FOR TOUR MANAGEMENT AND VEHICLE BOOKING FOR TOURS.</p>
@@ -179,7 +177,7 @@
   </section>
   <!----------------------------------------------------Package ------------------------------->
   <section id="package">
-    <div class="fancy-cards">
+    <div class="fancy-cards" data-aos=fade-right>
       <h1>OUR PACKAGES</h1>
       <div class="fancy-card">
         <div class="top">
@@ -353,10 +351,10 @@
         <div class="col-xs-12 col-sm-4 col-md-4">
           <h5>Contact</h5>
           <ul class="list-unstyled quick-links">
-            <li><i class="fa fa-map-marker"></i>SLADVENTURE Address Here</li>
+            <li><i class="fa fa-map-marker-alt"></i>SLADVENTURE Address Here</li>
             <li><i class="fa fa-envelope"></i>spiritluminaries@gmail.com</li>
             <li><i class="fa fa-phone"></i>+91 7579277488, +91 7579299249, +91 8979197592</li>
-            <li><i class="fa fa-whatsapp"></i>+91 9897632863 </li>
+            <li><i class="fab fa-whatsapp"></i>+91 9897632863 </li>
 
           </ul>
         </div>
@@ -365,11 +363,11 @@
       <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
           <ul class="list-unstyled list-inline social text-center">
-            <li class="list-inline-item"><a href="#!"><i class="fa fa-facebook"></i></a></li>
-            <li class="list-inline-item"><a href="#!"><i class="fa fa-twitter"></i></a></li>
-            <li class="list-inline-item"><a href="#!"><i class="fa fa-instagram"></i></a></li>
-            <li class="list-inline-item"><a href="#!"><i class="fa fa-google-plus"></i></a></li>
-            <li class="list-inline-item"><a href="#!"><i class="fa fa-envelope"></i></a></li>
+            <li class="list-inline-item"><a href="#!"><i class="fab fa-facebook-f"></i></a></li>
+            <li class="list-inline-item"><a href="#!"><i class="fab fa-twitter"></i></a></li>
+            <li class="list-inline-item"><a href="#!"><i class="fab fa-instagram"></i></i></a></li>
+            <li class="list-inline-item"><a href="#!"><i class="fab fa-google-plus"></i></a></li>
+            <li class="list-inline-item"><a href="#!"><i class="far fa-envelope"></i></a></li>
           </ul>
         </div>
         <hr>
@@ -380,8 +378,8 @@
           rural Himalayan villages..</p>
       </div>
       <p class="h6 text-white">© All right Reversed.<a class="ml-2" href="#!" target="_blank">Fukset</a><span
-          style="float: right;"><a class=" mr-2" href="privacyPolicy.html">Privacy Policy</a>|<a class=" ml-2"
-            href="termsOfUse.html">Terms of Use</a></span>
+          style="float: right;"><a class=" mr-2" href="privacyPolicy.html">Privacy Policy</a>|
+          <a class=" ml-2" href="termsOfUse.html">Terms of Use</a></span>
       </p>
     </div>
   </section>
@@ -401,7 +399,16 @@
     crossorigin="anonymous"></script>
   <!-- end bootstarp -->
   <!-- jquery -->
-<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+  <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+  <!-- aos -->
+  <script src="js/main.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      offset: 300,
+      duration: 1000,
+    });
+  </script>
 </body>
 
 </html>
