@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/style.css">
     <!-- bootstarp -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <!-- font Awesome -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- responsive -->
@@ -22,54 +22,49 @@
 </head>
 
 <body>
-   
-  <!-- Navbar -->
-  <nav class="navbar navbar-light bg-light-transprent container">
-    <a class="navbar-brand" href="index.html">
-      <img src="img/logo.png" width="90" height="60" class="d-inline-block align-center" alt=""  href="index.html">
-      <b>SLADVENTURE</b>
-    </a>
-    <form class="form-inline ">
-      <button class="btn btn-outline-success mr-2" type="button">Log In</button>
-      <button class="btn btn-outline-success ml-2" type="button">Sign Up</button>
-    </form>
-  </nav>
 
-  <nav class="navbar sticky-top navbar-expand-lg navbar-dark navbar-primary bg-success main-nav ">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
-      aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-      <ul class="navbar-nav mx-auto ">
-        <li class="nav-item mx-2">
-          <a class="nav-link " href="index.html">Home</a>
-        </li>
-        <li class="nav-item mx-2">
-          <a class="nav-link" href="about.html">About</a>
-        </li>
-        <li class="nav-item mx-2">
-          <a class="nav-link" href="tourPackages.html">Tour Packages</a>
-        </li>
-        <li class="nav-item mx-2">
-          <a class="nav-link" href="blog.html">Blogs</a>
-        </li>
-        <li class="nav-item mx-2">
-          <a class="nav-link" href="services.html">Services</a>
-        </li>
-        <li class="nav-item mx-2">
-          <a class="nav-link" href="contact.html">Contact Us</a>
-        </li>
-        <li class="nav-item mx-2">
-          <a class="nav-link" href="enquiry.html">Enquiry</a>
-        </li>
-        <li class="nav-item mx-2">
-          <a class="nav-link" href="#">Sign In</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-  <!-- end nav bar -->
+    <!-- Navbar -->
+    <nav class="navbar navbar-light bg-light-transprent container">
+        <a class="navbar-brand" href="index.html">
+            <img src="img/logo.png" width="90" height="60" class="d-inline-block align-center" alt="" href="index.html">
+        </a>
+        <form class="form-inline ">
+            <button class="btn btn-outline-success ml-2" type="button">Sign In</button>
+        </form>
+    </nav>
+
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark navbar-primary bg-success main-nav ">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+            aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <ul class="navbar-nav mx-auto ">
+                <li class="nav-item mx-2">
+                    <a class="nav-link " href="index.html">Home</a>
+                </li>
+                <li class="nav-item mx-2">
+                    <a class="nav-link" href="tourPackages.html">Tour Packages</a>
+                </li>
+                <li class="nav-item mx-2">
+                    <a class="nav-link" href="services.html">Services</a>
+                </li>
+                <li class="nav-item mx-2">
+                    <a class="nav-link" href="blog.html">Blogs</a>
+                </li>
+                <li class="nav-item mx-2">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item mx-2">
+                    <a class="nav-link" href="contact.html">Contact Us</a>
+                </li>
+                <li class="nav-item mx-2">
+                    <a class="nav-link" href="enquiry.html">Enquiry</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- end nav bar -->
 
     <div class="container">
         <h1 class="heading">
@@ -78,7 +73,7 @@
     </div>
     <div class="container">
         <section id="PKG-17">
-            <div class=" py-3" data-aos= fade-right>
+            <div class=" py-3" data-aos=fade-right>
                 <!-- Card Start -->
                 <div class="card">
                     <div class="row ">
@@ -93,12 +88,12 @@
                                 <p class="card-text"><b> Features :</b> Pick up and drop facility from Kathgodam to
                                     Kathgodam.
                                     Fooding, Good accommodation, Guiding and management on trek.</p>
-                                <h6 class="card-title">Package Details</h6>
+                                <!-- <h6 class="card-title">Package Details</h6> -->
                                 <a class="btn btn-success" data-toggle="collapse" href="#collapseExample" role="button"
                                     aria-expanded="false" aria-controls="collapseExample">
-                                    Read More
+                                    Package Details
                                 </a>
-                                <button class="btn btn-success ">Book A Package </button>
+                                <button class="btn btn-success" id="bookBtn">Book A Package </button>
                                 <div class="collapse " id="collapseExample">
                                     <p>Itinerary <b> 7 DAYS 6 NIGHT</b> PINDARI GLACIER ZERO POINT trek At <b>Rs.
                                             12445/-
@@ -106,24 +101,13 @@
                                             person
                                         </b> from Kathgodam
                                         to Kathgodam base camp: Pindar camp site Ddhur village, Pindari glacier route,
-                                        district
-                                        Bageshwar
-                                        Total Trek is 33km from our Campsite to Pindari glacier Zero Point. 29km on Feet
-                                        and
-                                        4km
-                                        on
-                                        Vehicle. If you are a solo traveler or a couple or three-person, you have to
-                                        come in
-                                        a
-                                        sharing
-                                        taxi. A taxi will be managed by us at Kathgodam railway station's gate. After
-                                        reaching
-                                        our
-                                        office at Almora, Our representative will receive you. Advance booking will be
-                                        confirmed
-                                        after
-                                        40% of amount will be deposit before 48hrs prior to the arrival.</p>
-                                    <button class="btn btn-success">Book A Package </button>
+                                        district Bageshwar Total Trek is 33km from our Campsite to Pindari glacier Zero
+                                        Point. 29km on Feet and 4km on Vehicle. If you are a solo traveler or a couple
+                                        or three-person, you
+                                        have to come in a sharing taxi. A taxi will be managed by us at Kathgodam
+                                        railway station's gate. After reaching our office at Almora, Our representative
+                                        will receive you. Advance booking will be confirmed after 40% of amount will be
+                                        deposit before 48hrs prior to the arrival.</p>
                                 </div>
                             </div>
                         </div>
@@ -168,12 +152,11 @@
                                 <p class="card-text"><b> Features :</b> Pick up and drop facility from Kathgodam to
                                     Kathgodam.
                                     Fooding, Good accommodation, Guiding and management.</p>
-                                <h6 class="card-title">Package Details</h6>
-                                <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample1" role="button"
+                                <a class="btn btn-success" data-toggle="collapse" href="#collapseExample1" role="button"
                                     aria-expanded="false" aria-controls="collapseExample1">
-                                    Read More
+                                    Package Detail
                                 </a>
-                                <button class="btn btn-success ">Book A Package </button>
+                                <button class="btn btn-success" id="bookBtn">Book A Package </button>
                                 <div class="collapse " id="collapseExample1">
                                     <p>KAFNI GLACIER TREK is <b> 7 DAYS 6 NIGHT</b> long trek at <b>Rs. 12445/- per
                                             person
@@ -189,7 +172,6 @@
                                         Kathgodam railway station's gate. After reaching our office at Almora, Our
                                         representative will
                                         receive you.</p>
-                                        <button class="btn btn-success ">Book A Package </button>
                                 </div>
                             </div>
                         </div>
@@ -211,15 +193,12 @@
                                 <p class="card-text"><b> Package Type :</b> Solo/Group/Couple/Famil</p>
                                 <p class="card-text"><b> Package Location :</b> SLA Dhur Campsite, Pindari Valley</p>
                                 <p class="card-text"><b> Features :</b> Fooding, Good accommodation, Guiding, Management
-                                    ,
-                                    Pickup
-                                    and drop facility on demand.</p>
-                                <h6 class="card-title">Package Details</h6>
-                                <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample2" role="button"
+                                    , Pickup and drop facility on demand.</p>
+                                <a class="btn btn-success" data-toggle="collapse" href="#collapseExample2" role="button"
                                     aria-expanded="false" aria-controls="collapseExample2">
-                                    Read More
+                                    Package Detail
                                 </a>
-                                <button class="btn btn-success ">Book A Package </button>
+                                <button class="btn btn-success" id="bookBtn">Book A Package </button>
                                 <div class="collapse " id="collapseExample2">
                                     <p><b> 3 DAYS 2 NIGHTS </b> Night CAmping with Boonfire, Music, Adventure activity,
                                         Yoga, Bird
@@ -231,7 +210,6 @@
                                         by us at Kathgodam railway station's gate. After reaching our office at Almora,
                                         Our
                                         representative will receive you.</p>
-                                        <button class="btn btn-success ">Book A Package </button>
                                 </div>
                             </div>
                         </div>
@@ -282,12 +260,11 @@
                                 <p class="card-text"><b> Features :</b> Pickup
                                     and drop facility on demand, Fooding, Good accommodation, Guiding and Management.
                                 </p>
-                                <h6 class="card-title">Package Details</h6>
-                                <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample3" role="button"
+                                <a class="btn btn-success" data-toggle="collapse" href="#collapseExample3" role="button"
                                     aria-expanded="false" aria-controls="collapseExample3">
-                                    Read More
+                                    Package Detail
                                 </a>
-                                <button class="btn btn-success ">Book A Package </button>
+                                <button class="btn btn-success" id="bookBtn">Book A Package </button>
                                 <div class="collapse " id="collapseExample3">
                                     <p>The most beautiful valley of Kumaon and the trek of <b>12 DAYS</b> at <b>Rs.
                                             14478,</b> which
@@ -305,7 +282,6 @@
                                         station's
                                         gate. After reaching our office at Almora, Our representative will receive you.
                                     </p>
-                                    <button class="btn btn-success ">Book A Package </button>
                                 </div>
                             </div>
                         </div>
@@ -330,24 +306,20 @@
                                 <p class="card-text"><b> Features :</b> From Kathgodam to Kathgodam, Fooding, Good
                                     accommodation,
                                     Guiding and Management.</p>
-                                <h6 class="card-title">Package Details</h6>
-                                <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample4" role="button"
+                                <a class="btn btn-success" data-toggle="collapse" href="#collapseExample4" role="button"
                                     aria-expanded="false" aria-controls="collapseExample4">
-                                    Read More
+                                    Package Detail
                                 </a>
-                                <button class="btn btn-success ">Book A Package </button>
+                                <button class="btn btn-success" id="bookBtn">Book A Package </button>
                                 <div class="collapse " id="collapseExample4">
                                     <p><b>4 DAYS</b> trek with traveling, <b>one day and night camping</b> at Khuliya
                                         Top at
-                                        <b>Rs.
-                                            9245</b>. At an altitude of 3500m
-                                        from sea level. If you are a solo traveler or a couple or three-person, you have
-                                        to
-                                        come in a
+                                        <b>Rs. 9245</b>. At an altitude of 3500m from sea level. If you are a solo
+                                        traveler
+                                        or a couple or three-person, you have
+                                        to come in a
                                         sharing taxi. A taxi will be managed by us at Kathgodam railway station's gate.
-                                        After reaching
-                                        our office at Almora, Our representative will receive you.</p>
-                                        <button class="btn btn-success ">Book A Package </button>
+                                        After reaching our office at Almora, Our representative will receive you.</p>
                                 </div>
                             </div>
                         </div>
@@ -395,22 +367,18 @@
                                 <p class="card-text"><b> Package Type :</b> Solo/Group/Couple/Family</p>
                                 <p class="card-text"><b> Package Location :</b> Pindari Glacier Zero Point</p>
                                 <p class="card-text"><b> Features :</b> Fooding, Good accommodation, Guiding, Good
-                                    management, Pick
-                                    up and drop facility on demand</p>
-                                <h6 class="card-title">Package Details</h6>
-                                <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample5" role="button"
+                                    management, Pick up and drop facility on demand</p>
+                                <a class="btn btn-success" data-toggle="collapse" href="#collapseExample5" role="button"
                                     aria-expanded="false" aria-controls="collapseExample5">
-                                    Read More
+                                    Package Detail
                                 </a>
-                                <button class="btn btn-success ">Book A Package </button>
+                                <button class="btn btn-success" id="bookBtn">Book A Package </button>
                                 <div class="collapse " id="collapseExample5">
                                     <p><b> 7 DAYS 6 NIGHT</b> trek. at <b>Rs. 8824/- per person
                                         </b> There are mostly five stoppages in the trek and Pindari Glacier Zero Point
-                                        is
-                                        33km from the
-                                        campsite in which 4 km from the campsite is from vehicle and rest is on foot.
+                                        is 33km from the campsite in which 4 km from the campsite is from vehicle and
+                                        rest is on foot.
                                     </p>
-                                    <button class="btn btn-success ">Book A Package </button>
                                 </div>
                             </div>
                         </div>
@@ -432,21 +400,18 @@
                                 <p class="card-text"><b> Package Type :</b> Solo/Group/Couple/Family</p>
                                 <p class="card-text"><b> Package Location :</b> Pindari Glacier Zero Point</p>
                                 <p class="card-text"><b> Features :</b> Fooding, Good accommodation, Guiding,
-                                    Management, Pick
-                                    up and drop facility on demand</p>
-                                <h6 class="card-title">Package Details</h6>
-                                <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample6" role="button"
+                                    Management, Pick up and drop facility on demand</p>
+                                <a class="btn btn-success" data-toggle="collapse" href="#collapseExample6" role="button"
                                     aria-expanded="false" aria-controls="collapseExample6">
-                                    Read More
+                                    Package Detail
                                 </a>
-                                <button class="btn btn-success ">Book A Package </button>
+                                <button class="btn btn-success" id="bookBtn">Book A Package </button>
                                 <div class="collapse " id="collapseExample6">
                                     <p><b>1 NIGHT</b> camping with Fooding and Bonfire at Spirit Luminaries Campsite,
                                         Pindari Valley at <b>Rs. 1250</b>
                                     <p> <i>**Including:- Accommodation one night stay (tents could be on quad sharing),
                                             Dinner and complimentary Breakfast Rs1200/- per person per night.</i></p>
                                     </p>
-                                    <button class="btn btn-success ">Book A Package </button>
                                 </div>
                             </div>
                         </div>
@@ -496,12 +461,11 @@
                                 <p class="card-text"><b> Features :</b> Fooding, Good accommodation, Guiding,
                                     Management, Pick
                                     up and drop facility from Campsite </p>
-                                <h6 class="card-title">Package Details</h6>
-                                <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample7" role="button"
+                                <a class="btn btn-success" data-toggle="collapse" href="#collapseExample7" role="button"
                                     aria-expanded="false" aria-controls="collapseExample7">
-                                    Read More
+                                    Package Detail
                                 </a>
-                                <button class="btn btn-success ">Book A Package </button>
+                                <button class="btn btn-success" id="bookBtn">Book A Package </button>
                                 <div class="collapse " id="collapseExample7">
                                     <p><b>ONE DAY ONE NIGHT</b> camping including, first night dinner, next day morning
                                         breakfast, and
@@ -510,7 +474,7 @@
                                             (non-veg on demand would
                                             be chargeable)</i></p>
                                     </p>
-                                    <button class="btn btn-success ">Book A Package </button>
+
                                 </div>
                             </div>
                         </div>
@@ -536,18 +500,16 @@
                                 <p class="card-text"><b> Features :</b> Fooding, Good accommodation, Guiding,
                                     Management, Pick
                                     up and drop facility from Campsite </p>
-                                <h6 class="card-title">Package Details</h6>
-                                <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample8" role="button"
+                                <a class="btn btn-success" data-toggle="collapse" href="#collapseExample8" role="button"
                                     aria-expanded="false" aria-controls="collapseExample8">
-                                    Read More
+                                    Package Detail
                                 </a>
-                                <button class="btn btn-success ">Book A Package </button>
+                                <button class="btn btn-success" id="bookBtn">Book A Package </button>
                                 <div class="collapse " id="collapseExample8">
                                     <p><b>7 DAYS</b> Kafni Glacier trek at <b>Rs. 8824/- per person</b> including stay
-                                        at
-                                        night and fooding (veg only). There are 4 night stop in the trekk.</p>
+                                        at night and fooding (veg only). There are 4 night stop in the trekk.</p>
                                     </p>
-                                    <button class="btn btn-success ">Book A Package </button>
+
                                 </div>
                             </div>
                         </div>
@@ -630,30 +592,30 @@
             </p>
         </div>
     </section>
-      <!-- JS, Popper.js, and jQuery -->
-  <script src="js/main.js"></script>
-  <!-- bootstarp js -->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-    crossorigin="anonymous"></script>
-  <!-- end bootstarp -->
-  <!-- jquery -->
-  <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-  <!-- aos -->
-  <script src="js/main.js"></script>
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script>
-    AOS.init({
-      offset: 300,
-      duration: 1000,
-    });
-  </script>
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="js/main.js"></script>
+    <!-- bootstarp js -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+    <!-- end bootstarp -->
+    <!-- jquery -->
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <!-- aos -->
+    <script src="js/main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 300,
+            duration: 1000,
+        });
+    </script>
 </body>
 
 </html>
