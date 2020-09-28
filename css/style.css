@@ -3,10 +3,7 @@
   margin: 0;
   padding: 0;
   font-family: 'Noto Serif', serif;
-  list-style-type: none;
-  text-decoration: none;
-  box-sizing: border-box;
-  outline: none;
+
 }
 
 
@@ -21,7 +18,6 @@ h1{
   margin-bottom: 5rem;
   text-align: center;
 }
-
 .heading{
   margin-top: 3rem;
 }
@@ -31,7 +27,7 @@ li a{
 li a:hover{
   font-weight: bold;
   color: white;
-  /* text-decoration: underline; */
+  text-decoration: underline !important;
 }
 /*==================================================== navbar========================= */
 .nav-item::after{
@@ -558,23 +554,9 @@ padding-bottom:50px;
   color: #fff;
   border: 0px;
 }
-
-.inline {
-  display: inline;
-}
-.price{
-  float: left;
-  margin-left: 5px;
-}
-.detail{
-  float: right;
-  margin-right: 5px;
-}
-
  /* ===================================================carousal 2 ============================================= */
  .carousal2{
    margin-top: 5rem;
-   margin-bottom: 5rem;
    width: 100%;
    display: inline-block;
  }
@@ -585,19 +567,6 @@ padding-bottom:50px;
   height: 37rem;
 } 
  
-/* Home Page Blog */
-#blogLink #blogImg{
-  width: 80%;
-  margin: 5%;
-  margin-bottom: 1rem;
-}
-@media (max-width:770px){
-	#blogLink #blogImg {
-    width: 90%;
-  margin: 5%;
-  margin-bottom: .5rem;
-}
-}
 
  /* ===============================================================footer============================================= */
  .bg-success{
@@ -702,6 +671,7 @@ padding-bottom:50px;
   border: none;
   border-top: 1px solid rgba(34, 36, 38, .1);
   box-shadow: none;
+   
 }
 .card {
   font-size: 1em;
@@ -710,14 +680,7 @@ padding-bottom:50px;
   border: none;
   border-radius: .28571429rem;
   box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
-  margin-top:30px;
-  margin-bottom: 5px;
-}
-@media (max-width:770px){
-  .card{
-    margin-top: 5px;
-    margin-bottom: 5px;
-  } 
+  margin-top:20px;
 }
 .card-block .card-title{
   color: green;
@@ -725,23 +688,19 @@ padding-bottom:50px;
 }
 .btn {
 margin-top: auto;
-margin-bottom: 10px;
 }
-#bookBtn{
-  float: right;
-}
+
 .collapse p{
 text-align:justify;
 }
 .tour-package-img{
   display: block;
-  width: 100% !important;
-  height: 20rem; 
-    animation-duration: 1.5s;
+  width: 100% !important; 
+  height: 20rem;
+  animation-duration: 1.5s;
   animation-name: servicesImgAnimation;
   position: relative;
   }
- 
    /* img {
     filter: gray; 
     -webkit-filter: grayscale(1); 
@@ -837,21 +796,8 @@ text-align:justify;
 #contact ul a:hover{
   color: green;
  }
+ 
 
- @media (max-width:370px){
-  #contact li{
-    font-size: 18px;
-    padding: 2px;
-    margin-top: 10px;
-  } 
-}
-@media (max-width:250px){
-  #contact li{
-    font-size: 15px;
-    padding: 1px;
-    margin-top: 8px;
-  } 
-}
 .profile-card-4 {
   content: "";
   margin: 1rem;
@@ -951,4 +897,118 @@ text-align:justify;
 }
 .enquiry{
   margin: 1rem;
+}
+
+/* ************************************booking button ************************************* */
+
+.booking-details-popup .close {
+  position: absolute;
+  right: -25px;
+  top: -25px;
+  background-color: black!important ;
+  width: 3rem !important;
+  height: 3rem !important;
+  font-size: 2rem !important;
+}
+.booking-details-popup .prof-icon {
+  width: 6rem;
+  height: 4rem;
+  border-radius: 50%;
+  position: absolute;
+  left: 0;  
+  right: 0;
+  margin: auto;
+  top: -30px;
+}
+.booking-details-popup .modal-header .header-img{
+  margin: 0;
+  padding: 0;
+}
+.booking-details-popup .header-img{
+  height: 10rem;
+  width: 100%;
+}
+.booking-details-popup .modal-header .header-img {
+  width: 100%;
+  max-width: 100%;
+}
+.booking-details-popup .close{
+  background: black;
+  height: 2rem;
+  width: 3rem;
+  color: #fff;
+}
+div.booking-tour{
+  margin: 20px 0;
+}
+.booking-tour.inlined {
+  width: 49%;
+
+  display: inline-block;
+  float: left;
+  margin-left: 1%;
+}
+
+label {
+  display: block;
+  padding-bottom: 1rem;
+  font-size: 1.25em;
+}
+
+input, select, textarea {
+  border-radius: 2px;
+  border: 2px solid #777;
+  box-sizing: border-box;
+  font-size: 1.25em;
+  width: 100%;
+  padding: 10px;
+}
+
+div.booking-tour .inlined input {
+  width: 95%;
+  display: inline-block;
+}
+
+textarea {
+  height: 200px;
+}
+
+hr {
+  border: 1px dotted #ccc;
+}
+/* =======================================login button================================= */
+.loginpage{
+  padding: 1em;
+  background-position: fixed;
+  width: 100%;
+  text-align: center;
+}
+
+ .social-buttons a{
+  width: 42%;
+  margin: 1rem .5rem;
+
+}
+ /* .form-group {
+  margin: 1rem;
+  width: 90%;
+} */
+.social-buttons .btn-fb{
+  color: #fff;
+  background-color:#3b5998;
+}
+.btn-fb:hover{
+  color: #fff;
+  background-color:#496ebc 
+}
+.social-buttons .btn-tw{
+  color: #fff;
+  background-color:#55acee;
+}
+.btn-tw:hover{
+  color: #fff;
+  background-color:#59b5fa;
+}
+.help-block{
+margin: 1rem;
 }
