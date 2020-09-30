@@ -29,6 +29,7 @@ li a:hover{
   color: white;
   text-decoration: underline !important;
 }
+
 /*==================================================== navbar========================= */
 .nav-item::after{
   content:'';
@@ -902,7 +903,7 @@ text-align:justify;
   margin: 20px 0;
 }
 .booking-tour.inlined {
-  width: 49%;
+  width: 32%;
   display: inline-block;
   float: left;
   margin-left: 1%;
@@ -934,6 +935,10 @@ textarea {
 
 hr {
   border: 1px dotted #ccc;
+}
+.tour_selection {
+  box-sizing: border-box;
+  width: 50%;
 }
 /* =======================================login button================================= */
 .loginpage{
