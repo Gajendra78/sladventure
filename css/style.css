@@ -733,7 +733,7 @@ text-align:justify;
  
 }
 #services a{
-  color: black;
+  color: rgb(255, 255, 255);
   text-decoration: none !important;
 }
 
@@ -754,14 +754,14 @@ text-align:justify;
 }
 #services button{
   background-color: green;
-  color:#ccc;
   border: none;
   font-size: large;
   height: 2.5rem;
-  width: 10rem;
+  width: auto;
   border-radius: 5rem;
   text-align: center;
   margin-bottom: 2rem;
+  padding: 0 1rem;
 }
 #services button:hover{
   color:white;
@@ -773,9 +773,7 @@ text-align:justify;
 
 /*************************************************************************** team member  ***************************************************/
 .card-deck{
-  text-align: center;
   justify-content: center;
-  align-content: center;
 }
 #contact li{
   font-size: 22px;
@@ -899,51 +897,12 @@ text-align:justify;
   margin: 1rem;
 }
 
-/* ************************************booking button ************************************* */
-
-.booking-details-popup .close {
-  position: absolute;
-  right: -25px;
-  top: -25px;
-  background-color: black!important ;
-  width: 3rem !important;
-  height: 3rem !important;
-  font-size: 2rem !important;
-}
-.booking-details-popup .prof-icon {
-  width: 6rem;
-  height: 4rem;
-  border-radius: 50%;
-  position: absolute;
-  left: 0;  
-  right: 0;
-  margin: auto;
-  top: -30px;
-}
-.booking-details-popup .modal-header .header-img{
-  margin: 0;
-  padding: 0;
-}
-.booking-details-popup .header-img{
-  height: 10rem;
-  width: 100%;
-}
-.booking-details-popup .modal-header .header-img {
-  width: 100%;
-  max-width: 100%;
-}
-.booking-details-popup .close{
-  background: black;
-  height: 2rem;
-  width: 3rem;
-  color: #fff;
-}
-div.booking-tour{
+/* ************************************booking form ************************************* */
+.booking-tour{
   margin: 20px 0;
 }
 .booking-tour.inlined {
   width: 49%;
-
   display: inline-block;
   float: left;
   margin-left: 1%;
@@ -957,20 +916,20 @@ label {
 
 input, select, textarea {
   border-radius: 2px;
-  border: 2px solid #777;
+  border: 1px solid #777;
   box-sizing: border-box;
   font-size: 1.25em;
   width: 100%;
   padding: 10px;
 }
 
-div.booking-tour .inlined input {
+.booking-tour .inlined input {
   width: 95%;
   display: inline-block;
 }
 
 textarea {
-  height: 200px;
+  height: 15rem;
 }
 
 hr {
